@@ -1,0 +1,68 @@
+Q) What is JavaScript Output method? 
+
+
+=>	JavaScript can "display" data in different ways:
+
+	Writing into the HTML output using document.write().
+	Writing into an HTML element, using innerHTML.
+	Writing into an alert box, using window.alert().
+	Writing into the browser console, using console.log().
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q)  How to used JavaScript Output method?
+
+
+1) Writing into the HTML output using document.write().
+
+SYNTAX
+<script>
+	document.write(2 + 2);
+</script>
+
+2) Writing into an HTML element, using innerHTML.
+
+<body>
+
+	<h1 id="demo"></h1>
+
+	<script>
+		document.getElementById("demo").innerHTML = 2 + 2;
+	</script>
+
+</body>
+
+3) Writing into the browser console, using console.log().
+
+
+<script>
+	console.log("You are showing Console panel.");
+</script>
+
+4) Writing into an alert box, using window.alert().
+	
+<script>
+	window.alert("This is example of alert");
+</script>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q)  How to used JavaScript Events to do all examples? 
+
+HTML events are "things" that happen to HTML elements.
+
+When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+
+
+Common HTML Events
+
+Here is a list of some common HTML events:
+
+
+onchange	=>	An HTML element has been changed
+onclick	The user =>	clicks an HTML element
+onmouseover	 =>	The user moves the mouse over an HTML element
+onmouseout	 =>	The user moves the mouse away from an HTML element
+onkeydown	 =>	The user pushes a keyboard key
+onload		 =>	The browser has finished loading the page
